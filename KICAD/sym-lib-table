@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ESP12_Harness-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ESP12_Harness-eagle-import.kicad_sym")(options "")(descr ""))
+)

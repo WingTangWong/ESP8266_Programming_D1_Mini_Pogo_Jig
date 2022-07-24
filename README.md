@@ -1,4 +1,30 @@
-# ESP8266 Programming D1 Mini Pogo Jig V1
+# ESP8266 Programming D1 Mini Pogo Jig V2
+
+This board makes use of a WemosD1Mini (ESP8266 version) board as a USB->SERIAL adapter to flash
+ESP-12 modules via POGO pins.
+
+* [Eagle Files](EAGLE)
+* [KiCAD Files](KICAD)
+* [Gerber/Drill Production Files](PRODUCTION_FILES)
+* [Gerber/Drill Production File ZIP](PRODUCTION_FILES/ESP12_Harness.zip)
+
+![Front](IMAGES/transparent_front.png)
+![Back](IMAGES/transparent_back.png)
+
+# Version 2 - Changelog
+
+* Imported [Eagle CAD](EAGLE) files into [KiCAD 6.x](KICAD) and did some cleanup:
+  * Rerouted some paths so that they weren't right on top of each other.
+  * Fixed an import bug to make sure that the pogo traces show up.
+  * Fixed the silkscreen on some footprints so that DRC passes without warnings.
+* Exported Gerber and Drill files for the Version 2 design from KiCAD: [Production Files](PRODUCTION_FILES) / [Production File ZIP](PRODUCTION_FILES/ESP12_Harness.zip)
+
+# Original Version 1 - Changelog
+
+* Originally Designed in [Eagle CAD](EAGLE)
+* Circuit works, but traces were pretty close together
+* The masking configs don't port to KiCad very well, so creating a version 2 that is done using [KiCAD](KICAD)
+* Silkscreens are all over the place. lulz.
 
 This is a board designed to take a WeMos D1 Mini board(with the ESP module removed) and use it as a USB interface with built-in reset/flash
 functionality for bare ESP8266 modules similar to the ESP-12 units.

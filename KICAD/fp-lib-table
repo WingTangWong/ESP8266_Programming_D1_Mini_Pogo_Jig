@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ESP12_Harness")(type "KiCad")(uri "$(KIPRJMOD)/ESP12_Harness.pretty")(options "")(descr ""))
+)
